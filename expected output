@@ -1,0 +1,26 @@
+s1=hello<------default constructor
+s2=vector<------parameterized constructor
+s3=vector<------copy constructor
+assignment operator s4=s1----->hello
+concatenation s4=s1+s2----->hellovector
+index operator s1[2]----->l
+checking s1>s2----->0
+checking s1<s2----->1
+checking s1>=s2----->0
+checking s1<=s2----->1
+checking s1!=s2----->1
+checking s1==s2----->0
+Strlen(s1)----->5
+Strcpy(s2,s1)----->s2=hello
+Strcat(s3,s1)----->s3=vectorhello
+Strchr(s3,'r')----->rhello
+Strupr(s4)----->s4=HELLOVECTOR
+Strlwr(s1)----->s1=hello
+Strcmp(s1,s3)----->-15
+s5=world
+Strstr(s3,"lo")----->llo
+Strrev(s2)----->s2=olleh
+Strncat(s5,s1,2)----->s5=worldhe
+Strncpy(s6,s5,3)----->s6=wor
+Strncmp(s5,s6,3)----->0
+Strrchr(s5,'t')----->no char found
